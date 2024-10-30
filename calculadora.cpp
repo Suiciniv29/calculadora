@@ -7,7 +7,7 @@ int soma (int n1, int n2){
 	scanf("%i", &n1);
 	printf("Indique a segunda parcela:");
 	scanf("%i", &n2);
-	printf("O resultado da soma È %i:", n1+n2);
+	printf("O resultado da soma √© %i:", n1+n2);
 }
 
 int subtracao (int n1, int n2){
@@ -15,7 +15,7 @@ int subtracao (int n1, int n2){
 	scanf("%i", &n1);
 	printf("Indique o subtraendo:");
 	scanf("%i", &n2);
-	printf("O resto È %i:", n1-n2);
+	printf("O resto √© %i:", n1-n2);
 }
 
 int mult (int n1, int n2){
@@ -23,7 +23,7 @@ int mult (int n1, int n2){
 	scanf("%i", &n1);
 	printf("Indique o outro fator:");
 	scanf("%i", &n2);
-	printf("O produto È %i:", n1*n2);
+	printf("O produto √© %i:", n1*n2);
 }
 
 int div(int n1, int n2){
@@ -31,7 +31,7 @@ int div(int n1, int n2){
 	scanf("%i", &n1);
 	printf("Indique o divisor:");
 	scanf("%i", &n2);
-	printf("O quociente È %i:", n1/n2);
+	printf("O quociente √© %i:", n1/n2);
 }
 int potencia (int n1,int n2){
 	printf("Indique a base :");
@@ -39,18 +39,18 @@ int potencia (int n1,int n2){
 	printf("Indique o expoente:");
 	scanf("%i", &n2);
 	int potencia = (pow (n1,n2));
-	printf("O resultado È %i:", potencia );
+	printf("O resultado √© %i:", potencia );
 }
 int raiz (float n1){
 	printf("Indique o radicando:");
 	scanf("%f", &n1);
-	printf("O resultado È %f", sqrt(n1));
+	printf("O resultado √© %f", sqrt(n1));
 	
 }
 int modulo (int n1){
 	printf("Indique o numero:");
 	scanf("%i", &n1);
-	printf("O resultado È %i", abs(n1));
+	printf("O resultado √© %i", abs(n1));
 }
 int bhaskara (double n1, double n2,double n3, double x1, double x2, double delta){
 	printf("Indique o valor de a:");
@@ -70,14 +70,14 @@ int bhaskara (double n1, double n2,double n3, double x1, double x2, double delta
         x1 = -n2 / (2 * n1);
         printf("\nRaiz unica: %.2lf\n", x1);
     } else {
-        printf("\nN„o ha raizes reais.\n");
+        printf("\nN√£o ha raizes reais.\n");
     }
 }
 
 int main (int funcao){
 	setlocale(LC_ALL, "Portuguese");
-	int v1, v2;
-	printf("Qual funÁ„o vocÍ quer usar?\nDIGITE 1 PARA ADI«√O\n2 PARA SUBTRA«√O\n3 PARA MULTIPLICA«√O\n4 PARA DIVIS√O\n5 PARA EXPONENCIA«√O\n 6 PARA RAIZ QUADRADA\n7 PARA O MODULO\n 8 PARA BHASKARA\n 9 PARA SAIR\n");
+	int v1, v2, v3, v4, v5, v6;
+	printf("Qual fun√ß√£o voc√™ quer usar?\nDIGITE 1 PARA ADI√á√ÉO\n2 PARA SUBTRA√á√ÉO\n3 PARA MULTIPLICA√á√ÉO\n4 PARA DIVIS√ÉO\n5 PARA EXPONENCIA√á√ÉO\n 6 PARA RAIZ QUADRADA\n7 PARA O MODULO\n 8 PARA BHASKARA\n 9 PARA SAIR\n");
 	scanf("%i", &funcao);
 	switch (funcao){
 		case 1 :
